@@ -13,16 +13,14 @@ const templates = [
   },
 ];
 
-function templates() {
+function Templates() {
   return (
     <section id="templates" className="py-20 px-10 bg-blue-900">
-
       <h2 className="text-5xl font-bold text-center mb-14">
         Resume Templates
       </h2>
 
       <div className="grid md:grid-cols-3 gap-10">
-
         {templates.map((item, index) => (
           <div
             key={index}
@@ -39,17 +37,15 @@ function templates() {
                 {item.title}
               </h3>
 
-              <button className="mt-5 bg-blue-500 px-5 py-3 rounded-lg">
+              <button className="mt-5 bg-blue-500 hover:bg-blue-600 px-5 py-3 rounded-lg">
                 Use Template
               </button>
             </div>
           </div>
         ))}
-
       </div>
-
     </section>
   );
 }
 
-export default templates;
+export default Templates;
