@@ -1,0 +1,41 @@
+import DashboardNavbar from "../components/DashboardNavbar";
+import StatCard from "../components/StatCard";
+import QuickActions from "../components/QuickActions";
+import RecentResume from "../components/RecentResume";
+import RecentATS from "../components/RecentATS";
+
+function Dashboard() {
+  return (
+    <div className="bg-blue-950 min-h-screen text-white p-8">
+
+      <DashboardNavbar />
+
+      {/* Stats */}
+      <div className="grid md:grid-cols-4 gap-6 mb-8">
+
+        <StatCard title="Total Resumes" value="12" />
+
+        <StatCard title="ATS Reports" value="8" />
+
+        <StatCard title="Cover Letters" value="5" />
+
+        <StatCard title="AI Credits" value="250" />
+
+      </div>
+
+      {/* Main Content */}
+      <div className="grid md:grid-cols-2 gap-8">
+
+        <QuickActions />
+
+        <RecentResume />
+
+        <RecentATS />
+
+      </div>
+
+    </div>
+  );
+}
+
+export default Dashboard;
