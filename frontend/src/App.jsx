@@ -5,7 +5,7 @@ import Login from "./pages/login";
 import Register from "./pages/register";
 import Dashboard from "./pages/dashboard";
 import ResumeBuilder from "./pages/resumeBuilder";
-import ATSChecker from "./pages/ATSChecker";
+import ATSChecker from "./pages/ATSchecker";
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
 
             <Route
               path="/ats-checker"
-              element={<ATSChecker />}
+              element={<ATSchecker />}
             />
           </Routes>
 
