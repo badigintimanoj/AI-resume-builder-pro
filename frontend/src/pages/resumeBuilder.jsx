@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { ResumeContext } from "../context/ResumeContext";
 
-import ResumeSidebar from "../components/resume/ResumeSidebar";
+import resumesidebar from "../components/resume/resumesidebar";
 import ProgressBar from "../components/resume/ProgressBar";
 import ResumePreview from "../components/resume/ResumePreview";
 
@@ -91,7 +91,7 @@ function resumeBuilder() {
 
       <div className="flex gap-8">
 
-        <ResumeSidebar currentStep={currentStep} />
+        <resumesidebar currentStep={currentStep} />
 
         <div className="flex-1">
 
