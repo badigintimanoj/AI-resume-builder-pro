@@ -1,15 +1,15 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Features from "../components/Features";
-import Templates from "../components/Templates";
+import Navbar from "../components/navbar";
+import hero from "../components/hero";
+import features from "../components/features";
+import templates from "../components/templates";
 
 function home() {
   return (
     <div className="bg-blue-950 text-white min-h-screen">
-      <Navbar />
-      <Hero />
-      <Features />
-      <Templates />
+      <navbar />
+      <hero />
+      <features />
+      <templates />
     </div>
   );
 }

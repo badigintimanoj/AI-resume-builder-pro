@@ -1,4 +1,4 @@
-function RecentResume() {
+function recentresume() {
   return (
     <div className="bg-blue-900 rounded-xl p-6">
 
@@ -20,4 +20,4 @@ function RecentResume() {
   );
 }
 
-export default RecentResume;
+export default recentresume;

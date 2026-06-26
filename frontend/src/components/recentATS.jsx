@@ -1,4 +1,4 @@
-function RecentATS() {
+function recentATS() {
   return (
     <div className="bg-blue-900 rounded-xl p-6">
 
@@ -20,4 +20,4 @@ function RecentATS() {
   );
 }
 
-export default RecentATS;
+export default recentATS;

@@ -1,4 +1,4 @@
-function StatCard({ title, value }) {
+function statCard({ title, value }) {
   return (
     <div className="bg-blue-900 rounded-xl p-6 shadow-xl">
 
@@ -14,4 +14,4 @@ function StatCard({ title, value }) {
   );
 }
 
-export default StatCard;
+export default statCard;

@@ -1,4 +1,4 @@
-function QuickActions() {
+function quickActions() {
   return (
     <div className="bg-blue-900 rounded-xl p-6">
 
@@ -30,4 +30,4 @@ function QuickActions() {
   );
 }
 
-export default QuickActions;
+export default quickActions;

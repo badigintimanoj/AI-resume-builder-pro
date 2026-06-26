@@ -40,7 +40,7 @@ const features = [
   },
 ];
 
-function Features() {
+function features() {
   return (
     <section id="features" className="py-20 px-10">
       <h2 className="text-5xl font-bold text-center mb-14">
@@ -69,4 +69,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default features;

@@ -1,6 +1,6 @@
 import { Bell, Search, UserCircle } from "lucide-react";
 
-function DashboardNavbar() {
+function dashboardNavbar() {
   return (
     <div className="flex justify-between items-center bg-blue-900 p-5 rounded-xl mb-8">
 
@@ -29,4 +29,4 @@ function DashboardNavbar() {
   );
 }
 
-export default DashboardNavbar;
+export default dashboardNavbar;

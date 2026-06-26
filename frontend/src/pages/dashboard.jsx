@@ -1,8 +1,8 @@
 import dashboardNavbar from "../components/dashboardNavbar";
-import StatCard from "../components/StatCard";
-import QuickActions from "../components/QuickActions";
+import StatCard from "../components/statCard";
+import QuickActions from "../components/quickActions";
 import RecentResume from "../components/RecentResume";
-import RecentATS from "../components/RecentATS";
+import RecentATS from "../components/recentATS";
 
 function dashboard() {
   return (

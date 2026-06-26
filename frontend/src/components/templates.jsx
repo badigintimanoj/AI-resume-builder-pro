@@ -13,7 +13,7 @@ const templates = [
   },
 ];
 
-function Templates() {
+function templates() {
   return (
     <section id="templates" className="py-20 px-10 bg-blue-900">
 
@@ -52,4 +52,4 @@ function Templates() {
   );
 }
 
-export default Templates;
+export default templates;

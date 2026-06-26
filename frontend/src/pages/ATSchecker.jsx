@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-function ATSChecker() {
+function ATSchecker() {
   const [resume, setResume] = useState("");
   const [job, setJob] = useState("");
   const [result, setResult] = useState(null);
@@ -362,4 +362,4 @@ function ATSChecker() {
   );
 }
 
-export default ATSChecker;
+export default ATSchecker;

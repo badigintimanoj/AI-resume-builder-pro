@@ -24,17 +24,17 @@ function App() {
         <div className="p-10">
 
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<home />} />
 
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" element={<login />} />
 
-            <Route path="/register" element={<Register />} />
+            <Route path="/register" element={<register />} />
 
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard" element={<dashboard />} />
 
             <Route
               path="/resume-builder"
-              element={<ResumeBuilder />}
+              element={<resumeBuilder />}
             />
 
             <Route
