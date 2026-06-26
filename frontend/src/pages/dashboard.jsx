@@ -1,14 +1,14 @@
-import DashboardNavbar from "../components/DashboardNavbar";
+import dashboardNavbar from "../components/dashboardNavbar";
 import StatCard from "../components/StatCard";
 import QuickActions from "../components/QuickActions";
 import RecentResume from "../components/RecentResume";
 import RecentATS from "../components/RecentATS";
 
-function Dashboard() {
+function dashboard() {
   return (
     <div className="bg-blue-950 min-h-screen text-white p-8">
 
-      <DashboardNavbar />
+      <dashboardNavbar />
 
       {/* Stats */}
       <div className="grid md:grid-cols-4 gap-6 mb-8">
@@ -38,4 +38,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default dashboard;
