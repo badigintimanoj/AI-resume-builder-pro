@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Hero() {
+function hero() {
   return (
     <section className="min-h-[80vh] flex items-center justify-center">
 
@@ -38,4 +38,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default hero;

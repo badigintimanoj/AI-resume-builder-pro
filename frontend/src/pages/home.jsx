@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Templates from "../components/Templates";
 
-function Home() {
+function home() {
   return (
     <div className="bg-blue-950 text-white min-h-screen">
       <Navbar />
@@ -14,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default home;

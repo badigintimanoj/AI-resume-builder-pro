@@ -19,7 +19,7 @@ import TemplateSelector from "../components/resume/TemplateSelector";
 
 import { downloadResume } from "../utils/pdfGenerator";
 
-function ResumeBuilder() {
+function resumeBuilder() {
   const [currentStep, setCurrentStep] = useState(1);
   const [loadingAI, setLoadingAI] = useState(false);
 
@@ -182,4 +182,4 @@ function ResumeBuilder() {
   );
 }
 
-export default ResumeBuilder;
+export default resumeBuilder;

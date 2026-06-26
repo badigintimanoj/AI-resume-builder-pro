@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function navbar() {
   return (
     <nav className="bg-blue-950 border-b border-blue-800 px-10 py-5 flex justify-between items-center">
 
@@ -30,4 +30,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default navbar;

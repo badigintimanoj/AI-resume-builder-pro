@@ -3,7 +3,7 @@ import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import { useNavigate } from "react-router-dom";
 
-function Register() {
+function register() {
 
   const navigate = useNavigate();
 
@@ -243,4 +243,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default register;

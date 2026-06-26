@@ -3,7 +3,7 @@ import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import { useNavigate } from "react-router-dom";
 
-function Login() {
+function login() {
 
   const navigate = useNavigate();
 
@@ -259,4 +259,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default login;
